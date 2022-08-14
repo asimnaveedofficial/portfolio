@@ -1,0 +1,172 @@
+/* Global */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    color: #464646;
+    box-sizing: border-box;
+    line-height: 2;
+    overflow-x: hidden;
+}
+
+/* Layout and sections */
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 1024px;
+}
+
+section, header, footer {
+    padding: 8% 0;
+}
+
+.primary-colored-section {
+    background-color: #0D6EFD;
+}
+
+.secondary-color-section {
+    background-color: white;
+}
+
+/* H1 */
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    color: #0D6EFD;
+    padding-bottom: 8%;
+}
+
+.primary-colored-section h1 {
+    color: #FFC107;
+}
+
+.featured-heading {
+    padding-top: 6%;
+    text-align: left;
+}
+
+/* H2 */
+h2 {
+    font-family: 'Andada Pro', serif;
+    color: #FFC107;
+    padding-bottom: 4%;
+}
+
+.primary-colored-section h2 {
+    color: white;
+}
+
+/* H3 */
+h3 {
+    padding-top: 1%;
+}
+
+/* H4 */
+h4 {
+    padding: 3% 0;
+    text-align: center;
+}
+
+/* Attributes */
+th {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* Profile picture */
+.profile {
+    width: 60%;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #FFC107;
+}
+
+.profile-holder {
+    text-align: center  ;
+}
+
+/* Featured buttons */
+.buttons {
+    margin-top: 3%;
+}
+
+/* Text declaration */
+.declaration {
+    text-align: justify;
+}
+
+/* Education card */
+.education-card {
+    border-top: 2px solid #FFC107;
+}
+
+.education-header {
+    background-color: #FFC107;
+    padding: 3% 3%;
+    text-align: center;
+}
+
+.education-header:hover {
+    background-color: #eaa404;
+}
+
+.education-content {
+    color: white;
+}
+
+.education-content h3 {
+    color: #FFC107;
+}
+
+/* Contact card */
+.card-header {
+    background-color: #0D6EFD;
+    text-align: center;
+    color: white;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.card-footer {
+    background-color: #0D6EFD;
+    text-align: center;
+}
+
+/* Visibility */
+.remove {
+    display: none;
+}
+
+/* Media query medium screen */
+@media screen and (max-width: 768px) {
+    /* Modify the featured section */
+    header {
+        text-align: center;
+    }
+
+    .profile {
+        width: 60%;
+    }
+
+    .featured-heading {
+        text-align: center;
+        padding-bottom: 4%;
+    }
+}
+
+/* Media query large screen */
+@media screen and (max-width: 992px) {
+    /* Modify the education cards section properly */
+    .education-content-heading {
+        display: none;
+    }
+
+    .education-card {
+        border: none;
+    }
+}
